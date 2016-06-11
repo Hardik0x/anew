@@ -23,6 +23,12 @@ var Commands = []cli.Command{
 		Action: command.CmdExec,
 		Flags:  []cli.Flag{},
 	},
+	{
+		Name:   "event",
+		Usage:  "not implemented",
+		Action: command.CmdEvent,
+		Flags:  []cli.Flag{},
+	},
 }
 
 func CommandNotFound(c *cli.Context, command string) {
