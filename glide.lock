@@ -1,0 +1,18 @@
+hash: 336255ad0259b025c068696c6b6784ffd4f2e263ab9c37af76ee27d30ed5c251
+updated: 2016-06-11T22:53:53.473497599+09:00
+imports:
+- name: github.com/howeyc/fsnotify
+  version: f0c08ee9c60704c1879025f2ae0ff3e000082c13
+- name: github.com/mattn/go-colorable
+  version: 9056b7a9f2d1f2d96498d6d146acd1f9d5ed3d59
+- name: github.com/mattn/go-isatty
+  version: 56b76bdf51f7708750eac80fa38b952bb9f32639
+- name: github.com/pilu/config
+  version: 3eb99e6c0b9a2dae0f56f05552c06ca5a643919b
+- name: github.com/urfave/cli
+  version: e5bef42c62aa7d25aba4880dc02b7624f01e9e19
+- name: golang.org/x/sys
+  version: 7f918dd405547ecb864d14a8ecbbfe205b5f930f
+  subpackages:
+  - unix
+devImports: []

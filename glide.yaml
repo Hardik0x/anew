@@ -1,0 +1,6 @@
+package: github.com/umiyosh/anew
+import:
+- package: github.com/howeyc/fsnotify
+- package: github.com/mattn/go-colorable
+- package: github.com/pilu/config
+- package: github.com/urfave/cli
