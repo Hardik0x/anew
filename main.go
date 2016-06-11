@@ -13,7 +13,7 @@ func main() {
 	app.Version = Version
 	app.Author = "umiyosh"
 	app.Email = ""
-	app.Usage = ""
+	app.Usage = "anew is a command line tool that execute any command and run your application everytime you save a Go or template file."
 
 	app.Flags = GlobalFlags
 	app.Commands = Commands

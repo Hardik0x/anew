@@ -13,13 +13,13 @@ var GlobalFlags = []cli.Flag{}
 var Commands = []cli.Command{
 	{
 		Name:   "shell",
-		Usage:  "",
+		Usage:  "anew shell hoge.sh",
 		Action: command.CmdShell,
 		Flags:  []cli.Flag{},
 	},
 	{
 		Name:   "exec",
-		Usage:  "",
+		Usage:  "anew exec 'make build && make test'",
 		Action: command.CmdExec,
 		Flags:  []cli.Flag{},
 	},
