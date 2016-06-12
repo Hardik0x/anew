@@ -106,7 +106,7 @@ func Start(cmd string) {
 	initLimit()
 	initSettings()
 	initLogFuncs()
-	initFolders()
+	// initFolders()
 	setEnvVars()
 	watch()
 	start(cmd)
