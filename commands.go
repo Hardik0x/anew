@@ -13,7 +13,7 @@ var GlobalFlags = []cli.Flag{}
 var Commands = []cli.Command{
 	{
 		Name:   "shell",
-		Usage:  "anew shell hoge.sh",
+		Usage:  "not implemented",
 		Action: command.CmdShell,
 		Flags:  []cli.Flag{},
 	},
